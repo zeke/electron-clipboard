@@ -1,0 +1,39 @@
+{
+  "name": "electron-clipboard",
+  "version": "1.0.0",
+  "description": "A clipboard history manager",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "spectron",
+    "lint": "standard-format -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/electron-clipboard.git"
+  },
+  "keywords": [
+    "electron",
+    "clipboard",
+    "copy",
+    "paste",
+    "history",
+    "snippets"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/electron-clipboard/issues"
+  },
+  "homepage": "https://github.com/zeke/electron-clipboard#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.3",
+    "spectron": "^1.37.0",
+    "standard": "^6.0.8"
+  },
+  "dependencies": {
+    "electron-json-storage": "^2.0.0",
+    "electron-prebuilt": "^0.37.3",
+    "handlebars": "^4.0.5",
+    "menubar": "^4.0.2"
+  }
+}

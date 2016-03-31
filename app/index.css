@@ -1,0 +1,30 @@
+:root {
+  --max-window-height: 300px;
+}
+
+html,body {
+  background: transparent;
+  color: white;
+  font-size: 24px;
+  font-family: "helvetica neue", helvetica, arial;
+}
+
+ul#clips {
+  background: red;
+  /*background: rgba(0,0,0,0.8);*/
+  border-radius: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  max-height: var(--max-window-height);
+  overflow: scroll;
+}
+
+li.clip {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
